@@ -6297,6 +6297,16 @@
 		(uuid "a67e8062-4af4-47d6-9d49-0fd224626cd0")
 	)
 	(label "VBAT"
+		(at 247.65 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8923b0c-feda-44b3-a49c-d6511825b0e3")
+	)
+	(label "VBAT"
 		(at 39.37 259.08 180)
 		(effects
 			(font
@@ -6742,9 +6752,9 @@
 			)
 		)
 	)
-	(global_label "PHASE_A"
+	(global_label "VBAT"
 		(shape input)
-		(at 255.27 264.16 0)
+		(at 247.65 262.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6754,7 +6764,7 @@
 		)
 		(uuid "b7cbfd29-9336-4f4b-b678-b483148fc0d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.359 264.16 0)
+			(at 255.05 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

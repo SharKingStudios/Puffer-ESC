@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1f401333-ea7b-466f-8e37-0f9b47e5f63e")
+	(uuid "8016e75e-c6bc-4b8b-b094-e3973a6e5673")
 	(paper "A4")
 	(title_block
 		(title "Puffer ESC - FET Power Stage")
@@ -5789,6 +5789,16 @@
 		)
 		(uuid "f2add97a-aac6-4f53-827b-ad969320f51c")
 	)
+	(label "VBAT"
+		(at 29.21 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2bf1f64-b559-4140-aa6e-2e62fe4ef9b4")
+	)
 	(label "GATE_Q3"
 		(at 170.18 35.56 180)
 		(effects
@@ -5959,6 +5969,30 @@
 		)
 		(uuid "ffe56f4f-6402-4a7b-998f-86259e022e03")
 	)
+	(global_label "PHASE_C"
+		(shape input)
+		(at 29.21 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11196bac-19bb-457c-8cfe-644b1dd18483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4804 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PHASE_A"
 		(shape input)
 		(at 29.21 172.72 0)
@@ -6031,9 +6065,9 @@
 			)
 		)
 	)
-	(global_label "PHASE_C"
+	(global_label "VBAT"
 		(shape input)
-		(at 29.21 177.8 0)
+		(at 29.21 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6041,9 +6075,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e83f0aeb-e021-4866-aad2-e33293195fe7")
+		(uuid "b97b38e8-8a4a-4b84-9840-d989ae76e916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4804 177.8 0)
+			(at 36.61 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
