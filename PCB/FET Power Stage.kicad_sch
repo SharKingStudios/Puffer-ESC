@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a43f2aaa-8012-4106-962a-160259b4f105")
+	(uuid "1f401333-ea7b-466f-8e37-0f9b47e5f63e")
 	(paper "A4")
 	(title_block
 		(title "Puffer ESC - FET Power Stage")
@@ -3569,16 +3569,6 @@
 		)
 		(uuid "fd91ca92-c2e1-4f88-863c-bf5a01928560")
 	)
-	(label "VBAT"
-		(at 187.96 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00752535-44e8-4cc7-822e-674c6927e059")
-	)
 	(label "POWER_RETURN"
 		(at 31.75 148.59 180)
 		(effects
@@ -3639,6 +3629,16 @@
 		)
 		(uuid "05d70b4f-2c6b-4ed5-9351-67bc8271571d")
 	)
+	(label "PHASE_C"
+		(at 49.53 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0603bd85-c329-46d7-8446-49a5dfed2834")
+	)
 	(label "POWER_RETURN"
 		(at 76.2 60.96 0)
 		(effects
@@ -3689,6 +3689,16 @@
 		)
 		(uuid "0a384336-5f02-456c-bc0a-b1431866ff3e")
 	)
+	(label "PHASE_B"
+		(at 49.53 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a979eb8-07b1-4d43-860f-b0515b7f3c97")
+	)
 	(label "PHASE_C"
 		(at 101.6 129.54 180)
 		(effects
@@ -3698,6 +3708,16 @@
 			(justify right bottom)
 		)
 		(uuid "0fe86194-8766-45e8-876c-37e57135f3ed")
+	)
+	(label "PHASE_B"
+		(at 187.96 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "109a49cf-e476-4171-84b6-f45b7176e941")
 	)
 	(label "VBAT"
 		(at 187.96 132.08 0)
@@ -3728,6 +3748,16 @@
 			(justify right bottom)
 		)
 		(uuid "122e1929-a13a-4080-91e5-94f96b14593a")
+	)
+	(label "POWER_RETURN"
+		(at 29.21 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1278bec9-f9f9-4fdd-8e58-ddfc30744ad0")
 	)
 	(label "POWER_RETURN"
 		(at 214.63 60.96 0)
@@ -3789,7 +3819,7 @@
 		)
 		(uuid "170b6414-f52f-4a7b-a8b7-ee0744b20b57")
 	)
-	(label "VBAT"
+	(label "PHASE_C"
 		(at 187.96 153.67 0)
 		(effects
 			(font
@@ -3797,7 +3827,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "18287692-bc30-419c-930c-639536b38361")
+		(uuid "18459c10-d7e3-406f-9b18-3ac37a0a5aac")
 	)
 	(label "PHASE_A"
 		(at 31.75 33.02 180)
@@ -3808,6 +3838,16 @@
 			(justify right bottom)
 		)
 		(uuid "18a7b3ad-a822-4c5b-bfa4-b5f0d2955124")
+	)
+	(label "PHASE_C"
+		(at 29.21 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19898182-6e3c-4678-9db5-7a2eaaf163bf")
 	)
 	(label "GATE_Q10"
 		(at 31.75 107.95 180)
@@ -3869,15 +3909,15 @@
 		)
 		(uuid "1df494cb-11b6-4db0-b96b-c0d3e2539d10")
 	)
-	(label "VBAT"
-		(at 49.53 156.21 0)
+	(label "PHASE_C"
+		(at 187.96 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "222b5fda-e729-4ebb-b2b6-6262a2f9a3d6")
+		(uuid "224ebdd6-1491-4195-b121-a5c7bb620081")
 	)
 	(label "VBAT"
 		(at 187.96 83.82 0)
@@ -3888,16 +3928,6 @@
 			(justify left bottom)
 		)
 		(uuid "23126311-c762-4bc8-9cd7-185b9fd957bd")
-	)
-	(label "VBAT"
-		(at 187.96 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2562383b-f9db-4018-85c9-401d2984d3f5")
 	)
 	(label "GATE_Q11"
 		(at 146.05 97.79 0)
@@ -3979,16 +4009,6 @@
 		)
 		(uuid "32171d13-6d6b-4f1c-b99f-3f7f4342ded7")
 	)
-	(label "VBAT"
-		(at 119.38 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34881f8f-40d3-4eb9-92b6-8f7e5ad9f1dd")
-	)
 	(label "GATE_Q7"
 		(at 76.2 73.66 0)
 		(effects
@@ -4039,6 +4059,16 @@
 		)
 		(uuid "38b60ae7-aac5-41c7-956a-81de06132fa2")
 	)
+	(label "PHASE_B"
+		(at 119.38 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "391541f7-bcc1-4a74-927a-342036350460")
+	)
 	(label "POWER_RETURN"
 		(at 214.63 109.22 0)
 		(effects
@@ -4048,6 +4078,16 @@
 			(justify left bottom)
 		)
 		(uuid "39d0951a-91b5-400d-944e-4cf264f6b224")
+	)
+	(label "PHASE_C"
+		(at 119.38 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bf090b7-f2f0-43a3-b4aa-aff1abaf480f")
 	)
 	(label "PHASE_B"
 		(at 31.75 81.28 180)
@@ -4109,6 +4149,16 @@
 		)
 		(uuid "40f557fc-bdc6-4b9b-8653-dc5acea6a33f")
 	)
+	(label "PHASE_B"
+		(at 119.38 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "414d14ba-6bd7-4730-9811-7c40153b18b8")
+	)
 	(label "GATE_Q2"
 		(at 146.05 25.4 0)
 		(effects
@@ -4118,26 +4168,6 @@
 			(justify left bottom)
 		)
 		(uuid "421e3f74-4aef-4d27-9295-f4da082f3b56")
-	)
-	(label "VBAT"
-		(at 187.96 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "424fc71a-4a90-490f-9296-618e22b26029")
-	)
-	(label "VBAT"
-		(at 49.53 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "428e306c-8237-4eca-825f-b796b074af00")
 	)
 	(label "PHASE_C"
 		(at 170.18 127 180)
@@ -4269,15 +4299,15 @@
 		)
 		(uuid "50181913-33d6-4703-812a-d58b481e13f8")
 	)
-	(label "VBAT"
-		(at 119.38 156.21 0)
+	(label "PHASE_B"
+		(at 119.38 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "53063fd4-0c07-4c0c-b960-f42d258093a4")
+		(uuid "503c39e8-01ab-496a-b9ae-88f2359110d7")
 	)
 	(label "POWER_RETURN"
 		(at 101.6 148.59 180)
@@ -4349,16 +4379,6 @@
 		)
 		(uuid "5bf52305-4555-4e2d-b07a-31eab34e9289")
 	)
-	(label "VBAT"
-		(at 49.53 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d29e6e6-625f-4dfc-98ca-327a172b10dd")
-	)
 	(label "GATE_Q4"
 		(at 76.2 49.53 0)
 		(effects
@@ -4368,16 +4388,6 @@
 			(justify left bottom)
 		)
 		(uuid "5de30f3c-b685-46a2-a154-222fcf32e820")
-	)
-	(label "VBAT"
-		(at 187.96 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e414afa-e04e-49ef-935c-b6ebb403885a")
 	)
 	(label "PHASE_B"
 		(at 146.05 85.09 0)
@@ -4449,6 +4459,16 @@
 		)
 		(uuid "63f8f997-fd3d-4f67-90b4-ce816142be91")
 	)
+	(label "PHASE_C"
+		(at 119.38 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66112828-3175-4f0b-b0c0-206c73c7d89d")
+	)
 	(label "VBAT"
 		(at 187.96 73.66 0)
 		(effects
@@ -4480,16 +4500,6 @@
 		(uuid "6e7baa35-67f0-4d0b-8b0f-a8bce74bdabb")
 	)
 	(label "VBAT"
-		(at 119.38 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fe18d62-1d32-42f7-931c-aa73e3a63f3a")
-	)
-	(label "VBAT"
 		(at 187.96 25.4 0)
 		(effects
 			(font
@@ -4498,6 +4508,16 @@
 			(justify left bottom)
 		)
 		(uuid "70105651-6e59-4669-adc6-773b2d2a5125")
+	)
+	(label "PHASE_C"
+		(at 49.53 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70accddf-4d65-48c9-b687-20bef22f485f")
 	)
 	(label "PHASE_C"
 		(at 76.2 133.35 0)
@@ -4579,6 +4599,16 @@
 		)
 		(uuid "745c6af6-a726-4a0b-b321-a314fde5343a")
 	)
+	(label "PHASE_B"
+		(at 49.53 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74eeeb07-2c38-4fd2-a84c-875a47fe7803")
+	)
 	(label "PHASE_A"
 		(at 119.38 54.61 0)
 		(effects
@@ -4599,16 +4629,6 @@
 		)
 		(uuid "7786df07-ba6e-463b-952c-6d709ffb795f")
 	)
-	(label "VBAT"
-		(at 119.38 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7acd7500-78a4-4cc7-a693-acd46201251c")
-	)
 	(label "PHASE_C"
 		(at 31.75 124.46 180)
 		(effects
@@ -4628,6 +4648,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c19a7d7-84e1-4834-86f6-894a916d4a23")
+	)
+	(label "PHASE_B"
+		(at 187.96 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c813d41-a8b4-46c6-acdc-8a5dd11a81cd")
 	)
 	(label "GATE_Q5"
 		(at 101.6 59.69 180)
@@ -4689,6 +4719,16 @@
 		)
 		(uuid "81b0c126-9ca0-4a96-93d0-51874df5095e")
 	)
+	(label "PHASE_B"
+		(at 187.96 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81d0f847-8c71-4c8b-b1a9-7ea4b3474dbb")
+	)
 	(label "GATE_Q10"
 		(at 76.2 97.79 0)
 		(effects
@@ -4719,6 +4759,16 @@
 		)
 		(uuid "859feffb-2109-453e-a452-ec1d513c0f3a")
 	)
+	(label "PHASE_C"
+		(at 49.53 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ab6d2ef-8ac8-4594-a8b6-02d43588fa74")
+	)
 	(label "VBAT"
 		(at 252.73 71.12 180)
 		(effects
@@ -4728,6 +4778,16 @@
 			(justify right bottom)
 		)
 		(uuid "8acc6bac-647b-44f4-a393-76dbf04e7192")
+	)
+	(label "PHASE_B"
+		(at 29.21 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bd825ed-f63b-40dd-8978-ae819165b559")
 	)
 	(label "DRV_GHC"
 		(at 66.04 121.92 180)
@@ -4749,16 +4809,6 @@
 		)
 		(uuid "8cd6e0c4-e29a-41b4-8f93-cee19251c97e")
 	)
-	(label "VBAT"
-		(at 119.38 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8da1ba7c-07b8-4413-bf96-9f67f5381ef8")
-	)
 	(label "POWER_RETURN"
 		(at 101.6 100.33 180)
 		(effects
@@ -4769,6 +4819,16 @@
 		)
 		(uuid "8f95923f-cf4d-49b2-bbea-9b08d178bf8b")
 	)
+	(label "PHASE_C"
+		(at 119.38 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9082ca7c-10dd-444c-8144-e51cf2f5b27a")
+	)
 	(label "POWER_RETURN"
 		(at 31.75 105.41 180)
 		(effects
@@ -4778,16 +4838,6 @@
 			(justify right bottom)
 		)
 		(uuid "92109ce8-d202-4fd8-a4db-c2ca4146324c")
-	)
-	(label "VBAT"
-		(at 49.53 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9301ccb0-deba-49e8-9f8f-ba2d1203bd96")
 	)
 	(label "VBAT"
 		(at 49.53 27.94 0)
@@ -4819,6 +4869,26 @@
 		)
 		(uuid "97415222-e637-493d-aa92-ca72a4bfd379")
 	)
+	(label "PHASE_C"
+		(at 187.96 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98218ec2-a651-49db-b530-9d8e35f83f3f")
+	)
+	(label "PHASE_C"
+		(at 119.38 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aab150a-4067-4a76-84d5-fa41e4018b92")
+	)
 	(label "POWER_RETURN"
 		(at 146.05 157.48 0)
 		(effects
@@ -4828,6 +4898,16 @@
 			(justify left bottom)
 		)
 		(uuid "9afe42a8-f442-4a3d-8b2b-b2bf1ed60f08")
+	)
+	(label "PHASE_B"
+		(at 187.96 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb6dbaa-521b-4be8-a10f-ed08ea9a1d46")
 	)
 	(label "VBAT"
 		(at 119.38 78.74 0)
@@ -4869,6 +4949,16 @@
 		)
 		(uuid "9f611a6b-cc4e-4c79-9f73-0a5d22e8426f")
 	)
+	(label "PHASE_C"
+		(at 187.96 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fd1681c-2977-4509-ac34-0217c9c72fd8")
+	)
 	(label "POWER_RETURN"
 		(at 101.6 54.61 180)
 		(effects
@@ -4898,16 +4988,6 @@
 			(justify left bottom)
 		)
 		(uuid "a16151c5-5b6d-490c-a2d1-3862d394bf2f")
-	)
-	(label "VBAT"
-		(at 187.96 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1ee2ac2-b6ec-464a-85b4-6399bbcec30b")
 	)
 	(label "VBAT"
 		(at 119.38 27.94 0)
@@ -5099,16 +5179,6 @@
 		)
 		(uuid "b2cbc2e2-d6c4-40b4-8039-dae788eebe0b")
 	)
-	(label "VBAT"
-		(at 119.38 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3b69d5b-b7db-4203-a0d0-28901eb0fb76")
-	)
 	(label "PHASE_A"
 		(at 49.53 54.61 0)
 		(effects
@@ -5139,6 +5209,16 @@
 		)
 		(uuid "b8c7c605-7c5f-4fff-8ef6-a5e8127509bb")
 	)
+	(label "PHASE_B"
+		(at 49.53 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba474287-3eae-4336-886f-64b86e9a4ff6")
+	)
 	(label "VBAT"
 		(at 187.96 81.28 0)
 		(effects
@@ -5168,6 +5248,16 @@
 			(justify left bottom)
 		)
 		(uuid "bb3521a9-f3d1-4446-a0f2-c648d62babd2")
+	)
+	(label "PHASE_C"
+		(at 119.38 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb8347d0-276e-4777-bccf-6de02913ebb8")
 	)
 	(label "PHASE_A"
 		(at 187.96 59.69 0)
@@ -5228,16 +5318,6 @@
 			(justify left bottom)
 		)
 		(uuid "c2248753-c238-4218-8324-09bdd12043ad")
-	)
-	(label "VBAT"
-		(at 49.53 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c294ba08-8e70-464b-aa99-0b79ee972671")
 	)
 	(label "VBAT"
 		(at 49.53 30.48 0)
@@ -5309,6 +5389,16 @@
 		)
 		(uuid "c4aabd33-a786-4dff-8652-d94304524488")
 	)
+	(label "PHASE_A"
+		(at 29.21 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c52f05ab-ab50-4f18-8841-e5877d7c5dce")
+	)
 	(label "POWER_RETURN"
 		(at 31.75 100.33 180)
 		(effects
@@ -5349,15 +5439,25 @@
 		)
 		(uuid "c87b424a-58e9-4c95-a3bf-a221830b239e")
 	)
-	(label "VBAT"
-		(at 187.96 100.33 0)
+	(label "PHASE_C"
+		(at 49.53 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c92de4a3-aa75-43b1-bd8f-903d1ba1425e")
+		(uuid "c92a9c00-a4e8-4b29-8f4d-aa9311b1004c")
+	)
+	(label "PHASE_C"
+		(at 187.96 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca0e3ee4-79f4-4bfd-9458-dff336ceda13")
 	)
 	(label "PHASE_A"
 		(at 49.53 49.53 0)
@@ -5368,16 +5468,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca3274fc-5550-4fe3-9860-131b4ec02918")
-	)
-	(label "VBAT"
-		(at 49.53 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca773e52-cf44-4e19-9928-a3ebbf849d59")
 	)
 	(label "POWER_RETURN"
 		(at 101.6 151.13 180)
@@ -5418,16 +5508,6 @@
 			(justify right bottom)
 		)
 		(uuid "d0a95202-22a0-4b80-9075-4c3a3b606c99")
-	)
-	(label "VBAT"
-		(at 119.38 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1d0f467-3f0b-4ff5-8400-90578b0d76a2")
 	)
 	(label "GATE_Q14"
 		(at 101.6 132.08 180)
@@ -5489,25 +5569,15 @@
 		)
 		(uuid "d80240d6-c32e-4045-afc6-92ce78d508b8")
 	)
-	(label "VBAT"
-		(at 187.96 156.21 0)
+	(label "PHASE_B"
+		(at 187.96 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d8fa3408-c72a-4900-b3a7-0b494c83c18a")
-	)
-	(label "VBAT"
-		(at 187.96 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacfd4eb-4bf7-4d37-82a3-e20c79c8a42f")
+		(uuid "dbd818e9-1369-461d-8af1-551be4b5ac30")
 	)
 	(label "PHASE_C"
 		(at 146.05 133.35 0)
@@ -5518,16 +5588,6 @@
 			(justify left bottom)
 		)
 		(uuid "dc449bd5-29ab-4a29-a5b5-f07dc975d6b7")
-	)
-	(label "VBAT"
-		(at 119.38 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc79279e-0683-4283-bc51-9d67dd6ea360")
 	)
 	(label "PHASE_A"
 		(at 187.96 57.15 0)
@@ -5548,6 +5608,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0998777-f94d-4b5e-9734-7c0955288360")
+	)
+	(label "PHASE_B"
+		(at 119.38 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0d0a354-ab8e-46c1-8c3a-3cbb7e11cad3")
 	)
 	(label "GATE_Q8"
 		(at 135.89 85.09 180)
@@ -5578,16 +5648,6 @@
 			(justify left bottom)
 		)
 		(uuid "e199e36e-cd42-4bea-91f5-76fc2797494b")
-	)
-	(label "VBAT"
-		(at 49.53 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e215a495-5427-44dc-862d-78e97f54acf4")
 	)
 	(label "PHASE_B"
 		(at 214.63 85.09 0)
@@ -5649,25 +5709,15 @@
 		)
 		(uuid "ea4cab40-caef-4211-baab-4641af98bbc9")
 	)
-	(label "VBAT"
-		(at 119.38 102.87 0)
+	(label "PHASE_C"
+		(at 49.53 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "eb025082-1a5c-4bbb-b8a8-eb94ed342dba")
-	)
-	(label "VBAT"
-		(at 187.96 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec0129c2-ad9a-4956-ac54-d6f1a4eb4079")
+		(uuid "ead5ea1d-a431-4eb6-a030-ac3b0612f5e8")
 	)
 	(label "VBAT"
 		(at 187.96 76.2 0)
@@ -5708,16 +5758,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1169009-9c9e-4bd7-ba8d-8ecb26b83a0c")
-	)
-	(label "VBAT"
-		(at 49.53 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f21a172d-3fe5-45a6-9b10-efa86dfbf7a6")
 	)
 	(label "PHASE_B"
 		(at 101.6 81.28 180)
@@ -5769,6 +5809,16 @@
 		)
 		(uuid "f2f0a66d-c67c-458b-82e8-beb03edc4738")
 	)
+	(label "PHASE_B"
+		(at 49.53 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3cd5c6f-d4f6-4bbf-b0d9-9e80020c0add")
+	)
 	(label "PHASE_A"
 		(at 119.38 52.07 0)
 		(effects
@@ -5809,6 +5859,16 @@
 		)
 		(uuid "fa55f046-85cb-4180-95ff-7bdcda5cc4d9")
 	)
+	(label "PHASE_B"
+		(at 119.38 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fad5b122-7b21-4829-8973-2969d42fba7e")
+	)
 	(label "PHASE_A"
 		(at 101.6 33.02 180)
 		(effects
@@ -5829,15 +5889,15 @@
 		)
 		(uuid "fb78941b-7702-4a0b-8ba4-77e267767bb3")
 	)
-	(label "VBAT"
-		(at 119.38 107.95 0)
+	(label "PHASE_B"
+		(at 49.53 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fcb0349d-7837-4709-9e8d-b0914d24e887")
+		(uuid "fbe9d9c7-1ae2-4583-8207-92d306988e59")
 	)
 	(label "POWER_RETURN"
 		(at 76.2 109.22 0)
@@ -5848,26 +5908,6 @@
 			(justify left bottom)
 		)
 		(uuid "fcd4a9c3-741a-43f8-9ab2-6023fdddf380")
-	)
-	(label "VBAT"
-		(at 49.53 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcdc6b90-1d72-4327-b840-1e7ab9e6e2db")
-	)
-	(label "VBAT"
-		(at 49.53 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcf76448-136f-4338-a914-9e509d75f7e6")
 	)
 	(label "PHASE_B"
 		(at 101.6 76.2 180)
@@ -5918,6 +5958,102 @@
 			(justify right bottom)
 		)
 		(uuid "ffe56f4f-6402-4a7b-998f-86259e022e03")
+	)
+	(global_label "PHASE_A"
+		(shape input)
+		(at 29.21 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2edcba95-e4d7-4f25-a181-76268466e7a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.299 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PHASE_B"
+		(shape input)
+		(at 29.21 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d1bdf9a-540d-4858-81e4-538536521088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4804 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "POWER_RETURN"
+		(shape input)
+		(at 29.21 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1edfefb-6ff5-4c78-a342-bb6c3de47d7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9513 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PHASE_C"
+		(shape input)
+		(at 29.21 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e83f0aeb-e021-4866-aad2-e33293195fe7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4804 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ESC:HYG025N06LS1C2")
