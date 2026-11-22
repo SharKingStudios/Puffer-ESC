@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8016e75e-c6bc-4b8b-b094-e3973a6e5673")
+	(uuid "017dd2ad-f5e5-4433-9af6-2aeefefb0308")
 	(paper "A4")
 	(title_block
 		(title "Puffer ESC - FET Power Stage")
@@ -4209,6 +4209,16 @@
 		)
 		(uuid "45a6f4b2-143b-4b8e-baa2-df29e8789f86")
 	)
+	(label "DRV_GLC"
+		(at 29.21 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45b5306f-f771-47e3-b234-05e4ce307a39")
+	)
 	(label "VBAT"
 		(at 187.96 35.56 0)
 		(effects
@@ -4479,6 +4489,16 @@
 		)
 		(uuid "66448d7d-3995-484c-86f9-b3e82885d311")
 	)
+	(label "DRV_GHA"
+		(at 29.21 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "694d3bd8-2cef-4095-8bd9-d6d867f24112")
+	)
 	(label "DRV_GHC"
 		(at 135.89 121.92 180)
 		(effects
@@ -4578,6 +4598,16 @@
 			(justify left bottom)
 		)
 		(uuid "72c2823a-d125-420c-97e2-980cb586dae7")
+	)
+	(label "DRV_GHB"
+		(at 29.21 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72e98b9f-ec87-444b-97ee-a9531f2c298b")
 	)
 	(label "POWER_RETURN"
 		(at 170.18 54.61 180)
@@ -5569,6 +5599,16 @@
 		)
 		(uuid "d80240d6-c32e-4045-afc6-92ce78d508b8")
 	)
+	(label "DRV_GLB"
+		(at 29.21 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9bb9cf0-693c-4d0c-bf8e-a56ce516ec34")
+	)
 	(label "PHASE_B"
 		(at 187.96 97.79 0)
 		(effects
@@ -5648,6 +5688,16 @@
 			(justify left bottom)
 		)
 		(uuid "e199e36e-cd42-4bea-91f5-76fc2797494b")
+	)
+	(label "DRV_GHC"
+		(at 29.21 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1c39faa-d8b9-4542-902b-79971a6fe810")
 	)
 	(label "PHASE_B"
 		(at 214.63 85.09 0)
@@ -5758,6 +5808,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1169009-9c9e-4bd7-ba8d-8ecb26b83a0c")
+	)
+	(label "DRV_GLA"
+		(at 29.21 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f25460f3-4565-4081-b9fa-45069d5d6db1")
 	)
 	(label "PHASE_B"
 		(at 101.6 81.28 180)
@@ -5993,6 +6053,30 @@
 			)
 		)
 	)
+	(global_label "DRV_GLA"
+		(shape input)
+		(at 29.21 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25674633-ab54-46fa-b38c-b4305b6c978b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.1781 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PHASE_A"
 		(shape input)
 		(at 29.21 172.72 0)
@@ -6006,6 +6090,30 @@
 		(uuid "2edcba95-e4d7-4f25-a181-76268466e7a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.299 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DRV_GLC"
+		(shape input)
+		(at 29.21 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e091869-f977-4014-84bb-d24ef0062dcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3595 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,6 +6149,30 @@
 			)
 		)
 	)
+	(global_label "DRV_GHB"
+		(shape input)
+		(at 29.21 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8631e9f4-26ea-4dac-a1f3-84e4ecc71c0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6619 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "POWER_RETURN"
 		(shape input)
 		(at 29.21 170.18 0)
@@ -6065,6 +6197,30 @@
 			)
 		)
 	)
+	(global_label "DRV_GLB"
+		(shape input)
+		(at 29.21 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a53c5d67-3952-40b8-8174-33da56c152f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3595 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 29.21 180.34 0)
@@ -6078,6 +6234,54 @@
 		(uuid "b97b38e8-8a4a-4b84-9840-d989ae76e916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.61 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DRV_GHC"
+		(shape input)
+		(at 29.21 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb082daa-6136-4cd6-9891-2277b5b328ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6619 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DRV_GHA"
+		(shape input)
+		(at 29.21 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da5bac86-4783-4c1b-9966-ba92f319e1c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4805 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
